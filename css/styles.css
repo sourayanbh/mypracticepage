@@ -1,0 +1,357 @@
+/* FONTS */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Simonetta', cursive; */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+/* TITLEPAGE */
+
+
+
+
+
+#titlepage{
+    background-image: url("../Images/CoverPic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+
+.navbar{
+    background-color:rgba(232, 139, 63, 0.6);
+    padding:8%;
+    margin: auto 13%;
+    border-radius: 50px;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item .nav-link{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainPageContents{
+    padding: 10%;
+}
+
+.comapanyName {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.comapanyName h1{
+    font-size: 150px;
+    font-family: 'Simonetta', cursive;
+    color: #e83f3f;
+
+}
+.comapanyName h3{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.comapanyName h5{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.userCredButtons{
+    width: 130px;
+    height: 50px;
+    margin-top: 5%;
+    background-color: #ee7f57;
+    border-radius: 50px;
+    border-style: none;
+    font-weight: bold;
+
+}
+.userCredButtons:hover{
+   background-color: #ed7e34;
+}
+
+
+
+@media(max-width: 1028px){
+    .comapanyName h1{
+        font-size: 60px;
+        padding:2%;
+    }
+    .comapanyName h3{
+        font-size: 35px;
+        padding-bottom: 30%;
+    }
+    #titlepage{
+        height:830px;
+    }
+
+    #ContactUs .card{
+        margin-bottom: 4%;
+    }
+    .contactDetails{
+        padding: 2%;
+    }
+
+}
+
+
+
+.d-inline-block{
+    animation: rotation 8s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* MUSICAL INSTRUMENTS */
+
+
+.musicalinstrumentsHeading{
+    margin-top: 1%;
+    padding-top: 2%;
+}
+.musicalinstrumentsHeadingdet{
+    padding: 1%;
+    background-color: #ee7f57;
+    margin-right: 6%;
+    margin-left: 6%;
+    border-radius: 50px;
+    color: white ;
+}
+
+ .musicalInstruments{
+    margin-top: 60px !important;
+
+}
+
+.musicalInstruments .card{
+    background-color: fff;
+    border-radius: 20px;
+    transition: transform .3s;
+
+}
+
+.musicalInstruments .card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+.text1{
+    font-size: 13px;
+    color: grey;
+}
+.info{
+    line-height: 17px;
+}
+.star{
+    color:	#FFD700;
+}
+.p-3{
+   background-color: #ee7f57;
+}
+.p-3:hover{
+    opacity: 0.8;
+}
+.text-uppercase{
+    font-weight: bold;
+}
+.cursor{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.musicalInstruments .btn{
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+/* REVIEWS */
+
+.reviews{
+    background-color: #ee7f57;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 5% 12%;
+}
+
+.carousel-item h2{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+}
+
+
+
+.slideImg{
+    width: 20%;
+    height: 20%;
+    margin:20px;
+    border-radius: 100%;
+}
+
+
+.OtherCompanyLogos{
+    background-color: #ee7f57;
+    text-align: center;
+}
+
+.OtherCompanyLogos h2{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.otherCompany-Image{
+    width:15%;
+    margin : 50px;
+}
+
+
+/* BOOKING Details */
+
+.Booking{
+    margin: 1% 25%;
+    margin-bottom: 80px;
+}
+
+.BookingForm{
+    padding: 7% 10%;
+
+}
+
+.form-group{
+    padding: 1% 4%;
+
+}
+
+.header{
+    background-color:  #ee7f57  ;
+    margin: auto 25%;
+    border-radius: 50px;
+    color: white  ;
+
+}
+
+.BookNowHeader{
+    font-family: 'Roboto', sans-serif;
+    padding-top:  1%;
+    color: whitesmoke;
+}
+
+
+
+.hearingphrase{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #ee7f57;
+    padding: 4% 10%;
+}
+.hearingphrase h3{
+    color: black;
+}
+
+
+
+/* CONTACT US */
+
+#ContactUs{
+    background-color: #ee7f57;
+    padding: 2% 5%;
+}
+
+#ContactUs h2{
+    color: white;
+    padding: 2%;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ContactUs h4{
+    padding: 1%;
+    color: white;
+}
+
+.fa-heart{
+    color: rgb(255, 217, 0);
+}
+
+
+.map-container-5{
+    overflow:hidden;
+    position:relative;
+
+    }
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .container{
+        padding: 2%;
+    }
+
+    .contactDetails{
+        padding: 6%;
+        color: cornsilk;
+    }
+
+
+
+
+
+
+
+    /* FOOTER */
+
+    #Footer{
+        height: 50px;
+        padding: 7% 10%;
+    }
+
+   .social-icon{
+       padding:2%;
+   }

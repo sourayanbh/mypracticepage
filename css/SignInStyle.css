@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #ffe3cf;
+    text-align: center;
+    padding-left: 4%;
+    background-image: url("../Images/ManWithTrampoline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.signInComp{
+    height: 550px;
+    width: 800px;
+    padding: 2%;
+    margin-top: 5%;
+
+}
+
+
+.leftSide{
+    background-color: #f59547;
+    height: 100%;
+    border-radius: 50px 0 0 50px;
+}
+
+.leftDetails{
+    margin-top: 50%;
+    padding:10%;
+
+    color: white;
+}
+
+.leftDetails h2{
+    padding-bottom: 15%;
+}
+
+
+.rightSide{
+    background-color:whitesmoke ;
+    height: 100%;
+    border-radius: 0 50px 50px 0;
+
+}
+
+.rightSide h2{
+    margin-top: 6%;
+    color: #f59547;
+}
+
+.rightSide h6{
+    color: grey;
+}
+
+
+.socialLinksicons{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.socialLinksicons div{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 80%;
+    border: 1px solid #d1d1d1 ;
+}
+
+.signupForm{
+    padding: 7% 12%;
+}
+
+.signupForm input{
+    background-color: 	#E8E8E8;
+}
+
+.signupForm input:hover{
+    background-color: whitesmoke;
+}
+
+.signupForm button{
+    width: 100px;
+    height: 50px;
+    margin-top: 5%;
+    background-color: #f59547;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.signupForm button:hover{
+    background-color: #fc8200;
+}
+
+.signupForm h6{
+    padding: 2%;
+}
+.signupForm h6 a{
+    text-decoration: none;
+}
+
+
+@media(max-width:700px)
+{
+    body{
+
+        height: 582px;
+        padding:auto 2%;
+    }
+    .signInComp{
+        width: 100%;
+        margin-top: 0;
+    }
+    .leftSide{
+      height: 18%;
+      border-radius: 0;
+      padding: 1%;
+      border-radius: 50px 50px 0 0;
+    }
+    .rightSide{
+        height: auto;
+        border-radius: 0 0px 50px 50px;
+    }
+
+    .leftDetails{
+        margin-top: 0%;
+        padding:0;
+    }
+
+    .leftDetails h2{
+        margin-top: 0;
+        padding-bottom:0;
+    }
+
+
+
+
+
+
+
+
+
+}
